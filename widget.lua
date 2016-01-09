@@ -186,8 +186,6 @@ buttonsTable = awful.util.table.join(
         awful.button({ }, 5, pulseWidget.Down)
     )
 pulseWidget:buttons(buttonsTable)
-pulseBox:buttons(buttonsTable)
-
 
 -- initialize
 _update()
